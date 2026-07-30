@@ -1,0 +1,108 @@
+# yaml-language-server: $schema=https://github.com/rendercv/rendercv/blob/main/schema.json?raw=true
+cv:
+  name: Bayram Bayramov
+  location: Baku, Azerbaijan
+  email: bayramovb578@gmail.com
+  website: https://github.com/baiiraam
+  social_networks:
+    - network: LinkedIn
+      username: bayram-bayramov
+    - network: GitHub
+      username: baiiraam
+
+  sections:
+    profile:
+      - AI Engineer and Data Scientist with hands-on experience building machine learning and generative AI systems across the full lifecycle—from experimentation to deployment. Developed RAG applications and forecasting pipelines in a bootcamp setting, using PyTorch, Hugging Face, Docker, Airflow, Kafka, and vector databases. Evaluated model performance against real-world data during internships, diagnosing failure modes through systematic error analysis. Experience teaching and mentoring technical concepts, with strong communication skills for bridging AI/ML concepts to diverse audiences. Comfortable working in collaborative, fast-moving environments.
+      - "Tech Stack: PyTorch, TensorFlow, Keras, Hugging Face Transformers, RAG pipelines, LLM frameworks, Vector databases, Docker, Airflow, Kafka, Spark, Python, FastAPI, OpenCV, Git, PostgreSQL, Power BI, Tableau, NumPy, Pandas"
+
+    experience:
+      - company: DataMinds Azercell
+        position: Data Analytics and AI Bootcamp
+        start_date: 2025-01
+        end_date: 2025-12
+        location: Baku, Azerbaijan
+        highlights:
+          - Built and deployed a RAG application and forecasting pipeline during an intensive bootcamp, using Docker, Airflow, Kafka, and Spark alongside vector databases and LLM frameworks
+          - Implemented LLM-based retrieval using vector databases and open-source frameworks, building end-to-end systems from data ingestion to inference
+          - Gained practical experience with MLOps tools including pipeline orchestration, containerization, and stream processing
+
+      - company: Kapital Bank
+        position: Data Science and AI Intern
+        start_date: 2024-01
+        end_date: 2025-01
+        location: Baku, Azerbaijan
+        highlights:
+          - Built Python tooling including pydub, audiosegment, and wave to segment, validate, and visualize audio data, supporting evaluation of an Automatic Speech Recognition (ASR) model
+          - Standardized data preparation workflows for a 4-person labeling team, improving consistency and turnaround for model testing
+          - Collaborated with engineers to align data processing with model requirements, contributing to more reliable ASR evaluation
+
+      - company: Div Academy
+        position: Teacher and Tutor
+        start_date: 2024-01
+        end_date: 2025-01
+        location: Baku, Azerbaijan
+        highlights:
+          - Taught Python, SQL, PyTorch, TensorFlow, FastAPI, and Hugging Face Transformers, translating complex ML/AI and deep learning concepts into accessible practical knowledge
+          - Provided ongoing technical mentorship and code review, helping learners build skills in model design, training, and deployment
+          - Developed curriculum materials and coding exercises focused on real-world application
+
+      - company: Azercosmos
+        position: Machine Learning Intern
+        start_date: 2023-01
+        end_date: 2024-01
+        location: Baku, Azerbaijan
+        highlights:
+          - Built and trained SAR image segmentation models including U-Net, Attention U-Net, and LRAU-Net in PyTorch, covering the full experimental lifecycle from data preprocessing to evaluation
+          - Diagnosed model failures through systematic analysis including failure-case visualization, per-region error statistics, and NDVI/NDBI indices
+          - Developed an evaluation framework that informed data relabeling and model improvements
+
+    projects:
+      - name: AI Food Analyzer
+        start_date: 2025-08
+        end_date: 2026-08
+        highlights:
+          - Built a production-ready web application using FastAPI that identifies ingredients from meal photos and calculates nutritional information via Vision Language Models (OpenAI, Anthropic, Google Gemini) with automatic failover
+          - Implemented 3-layer caching (VLM, nutrition, HTTP) achieving 500-600x speed improvement and parallel nutrition lookups with asyncio for up to 13x faster processing
+          - Containerized with Docker and Docker Compose using multi-stage builds reducing image size to ~585MB, with GitHub Actions CI achieving 86% test coverage across 190+ tests
+          - Integrated PostgreSQL with asyncpg for persistent storage and built both REST API and CLI interfaces with comprehensive OpenAPI documentation
+          - Designed system architecture with file validation, SHA-256 hashing for caching, TTL-aware cache backends (JSON/SQLite), and structured logging with Loguru
+
+    education:
+      - institution: AI Academy
+        area: Artificial Intelligence
+        degree: Certificate Program
+        start_date: 2025-08
+        end_date: 2026-08
+        location: Baku, Azerbaijan
+        highlights:
+          - Studying machine learning and deep learning with a theory-heavy curriculum, implementing concepts through hands-on coding projects
+          - Built an AI Food Analyzer project applying ML/DL techniques up to CNNs, with the full implementation detailed on GitHub
+
+      - institution: Azerbaijan State University of Economics
+        area: Business and Data Analytics
+        degree: Master
+        start_date: 2025-09
+        end_date: present
+        location: Baku, Azerbaijan
+        highlights:
+          - Combining data science techniques with business strategy and decision-making
+          - Studying advanced analytics, data visualization, and quantitative methods for business applications
+
+      - institution: Baku Higher Oil School
+        area: Chemical Engineering
+        degree: Bachelor
+        start_date: 2020-09
+        end_date: 2025-06
+        location: Baku, Azerbaijan
+        highlights:
+          - Built a strong foundation in mathematics, physics, and computational methods through a rigorous engineering curriculum
+          - Developed analytical problem-solving skills applicable to data science and modeling
+
+design:
+  theme: classic
+  page:
+    size: us-letter
+    top_margin: 0.7in
+    bottom_margin: 0.7in
+    left_margin: 0.7in
+    right_margin: 0.7in

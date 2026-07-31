@@ -2,32 +2,31 @@
 
 - Email: [bayramovb578@gmail.com](mailto:bayramovb578@gmail.com)
 - Location: Baku, Azerbaijan
-- Website: [github.combaiiraam](https://github.com/baiiraam)
 - LinkedIn: [bayram-bayramov](https://linkedin.com/in/bayram-bayramov)
 - GitHub: [baiiraam](https://github.com/baiiraam)
 
 
 # Profile
-AI Engineer and Data Scientist with hands-on experience building machine learning and generative AI systems across the full lifecycle—from experimentation to deployment. Developed RAG applications and forecasting pipelines in a bootcamp setting, using PyTorch, Hugging Face, Docker, Airflow, Kafka, and vector databases. Evaluated model performance against real-world data during internships, diagnosing failure modes through systematic error analysis. Experience teaching and mentoring technical concepts, with strong communication skills for bridging AI/ML concepts to diverse audiences. Comfortable working in collaborative, fast-moving environments.
+Early-career AI / ML Engineer and Data Scientist with hands-on experience building machine learning and generative AI systems across the full lifecycle—from experimentation to deployment. Built SAR image segmentation models during an internship, developed a production-ready AI food analyzer application, and contributed to data preparation workflows for ASR model evaluation. Experience teaching and mentoring technical concepts, with strong communication skills for bridging AI/ML concepts to diverse audiences. Comfortable working in collaborative, fast-moving environments.
 
-Tech Stack: PyTorch, TensorFlow, Keras, Hugging Face Transformers, RAG pipelines, LLM frameworks, Vector databases, Docker, Airflow, Kafka, Spark, Python, FastAPI, OpenCV, Git, PostgreSQL, Power BI, Tableau, NumPy, Pandas
+Tech Stack: Python, PyTorch, TensorFlow, Hugging Face Transformers, FastAPI, Docker, PostgreSQL, Git, NumPy, Pandas, Scikit-learn, OpenCV
 
 # Experience
 ## **DataMinds Azercell**, Data Analytics and AI Bootcamp
 
 Baku, Azerbaijan
 
-Jan 2025 – Dec 2025
+July 2025 – Aug 2025
 
 
 
-1 year
+2 months
 
-- Built and deployed a RAG application and forecasting pipeline during an intensive bootcamp, using Docker, Airflow, Kafka, and Spark alongside vector databases and LLM frameworks
+- Built a RAG application and forecasting pipeline during an intensive bootcamp, using vector databases and LLM frameworks
 
-- Implemented LLM-based retrieval using vector databases and open-source frameworks, building end-to-end systems from data ingestion to inference
+- Gained exposure to MLOps concepts including pipeline orchestration, containerization, and stream processing through additional projects
 
-- Gained practical experience with MLOps tools including pipeline orchestration, containerization, and stream processing
+- Developed foundational understanding of end-to-end ML/AI system design
 
 
 
@@ -35,17 +34,17 @@ Jan 2025 – Dec 2025
 
 Baku, Azerbaijan
 
-Jan 2024 – Jan 2025
+Aug 2025 – Aug 2025
 
 
 
-1 year 1 month
+1 month
 
-- Built Python tooling including pydub, audiosegment, and wave to segment, validate, and visualize audio data, supporting evaluation of an Automatic Speech Recognition (ASR) model
+- Contributed to a 4-person labeling team, preparing and validating audio data for an Automatic Speech Recognition (ASR) model
 
-- Standardized data preparation workflows for a 4-person labeling team, improving consistency and turnaround for model testing
+- Assisted in standardizing data preparation workflows to improve consistency and turnaround for model testing
 
-- Collaborated with engineers to align data processing with model requirements, contributing to more reliable ASR evaluation
+- Collaborated with engineers to align data processing with model requirements, supporting more reliable ASR evaluation
 
 
 
@@ -53,11 +52,11 @@ Jan 2024 – Jan 2025
 
 Baku, Azerbaijan
 
-Jan 2024 – Jan 2025
+Oct 2025 – Mar 2026
 
 
 
-1 year 1 month
+6 months
 
 - Taught Python, SQL, PyTorch, TensorFlow, FastAPI, and Hugging Face Transformers, translating complex ML/AI and deep learning concepts into accessible practical knowledge
 
@@ -71,11 +70,11 @@ Jan 2024 – Jan 2025
 
 Baku, Azerbaijan
 
-Jan 2023 – Jan 2024
+Mar 2026 – May 2026
 
 
 
-1 year 1 month
+3 months
 
 - Built and trained SAR image segmentation models including U-Net, Attention U-Net, and LRAU-Net in PyTorch, covering the full experimental lifecycle from data preprocessing to evaluation
 
@@ -87,8 +86,6 @@ Jan 2023 – Jan 2024
 
 # Projects
 ## **AI Food Analyzer**
-
-Aug 2025 – Aug 2026
 
 - Built a production-ready web application using FastAPI that identifies ingredients from meal photos and calculates nutritional information via Vision Language Models (OpenAI, Anthropic, Google Gemini) with automatic failover
 
@@ -129,9 +126,9 @@ Baku, Azerbaijan
 
 Sept 2025 – present
 
-- Combining data science techniques with business strategy and decision-making
+- Currently pursuing a Master's degree combining data science with business applications
 
-- Studying advanced analytics, data visualization, and quantitative methods for business applications
+- Coursework includes advanced analytics, data visualization, and quantitative methods
 
 
 

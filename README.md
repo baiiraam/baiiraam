@@ -45,10 +45,11 @@
 ---
 
 <!-- Optional: Trophies -->
-
+<!--
 <p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=baiiraam" alt="baiiraam" /></a> </p>
-
+-->
 
 <!-- Optional: Snake Animation -->
-
+<!--
 ![snake gif](https://github.com/baiiraam/baiiraam/blob/output/github-snake.svg)
+-->

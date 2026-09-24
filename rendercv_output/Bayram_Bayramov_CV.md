@@ -7,44 +7,41 @@
 
 
 # Profile
-Early-career AI / ML Engineer and Data Scientist with hands-on experience building machine learning and generative AI systems across the full lifecycle—from experimentation to deployment. Built SAR image segmentation models during an internship, developed a production-ready AI food analyzer application, and contributed to data preparation workflows for ASR model evaluation. Experience teaching and mentoring technical concepts, with strong communication skills for bridging AI/ML concepts to diverse audiences. Comfortable working in collaborative, fast-moving environments.
+AI/ML Engineer with strong theoretical foundations and hands-on experience building production systems, computer vision models, and NLP applications. Built a production-ready AI food analyzer with 190+ tests and Docker deployment, implemented 7 ML algorithms from scratch, fine-tuned YOLO for object detection, and trained SAR segmentation models in PyTorch. Experienced in teaching Python and ML frameworks. Currently focused on improving MLOps and deployment skills with a practical approach to problem-solving.
 
-Tech Stack: Python, PyTorch, TensorFlow, Hugging Face Transformers, FastAPI, Docker, PostgreSQL, Git, NumPy, Pandas, Scikit-learn, OpenCV
+# Skills
+**Languages:** Python
+
+**ML/DL:** PyTorch, TensorFlow, Hugging Face Transformers, Scikit-learn, NumPy, Pandas
+
+**Computer Vision:** OpenCV, YOLO, U-Net, Attention U-Net, SAR segmentation
+
+**NLP:** LSTM, Transformers, Hugging Face, NLTK
+
+**Backend and APIs:** FastAPI, Pydantic, asyncpg
+
+**Databases:** PostgreSQL, SQLite
+
+**MLOps:** Docker, Kubernetes (Kind), Helm, GitHub Actions
+
+**Testing:** Pytest, pytest-cov, pytest-asyncio
 
 # Experience
-## **DataMinds Azercell**, Data Analytics and AI Bootcamp
+## **Azercosmos**, Machine Learning Intern
 
 Baku, Azerbaijan
 
-July 2025 – Aug 2025
+Mar 2026 – May 2026
 
 
 
-2 months
+3 months
 
-- Built a RAG application and forecasting pipeline during an intensive bootcamp, using vector databases and LLM frameworks
+- Built and trained SAR image segmentation models including U-Net, Attention U-Net, and LRAU-Net in PyTorch, working with 50+ GB of satellite imagery data
 
-- Gained exposure to MLOps concepts including pipeline orchestration, containerization, and stream processing through additional projects
+- Diagnosed model failures through systematic error analysis including failure-case visualization, per-region statistics, and NDVI/NDBI indices
 
-- Developed foundational understanding of end-to-end ML/AI system design
-
-
-
-## **Kapital Bank**, Data Science and AI Intern
-
-Baku, Azerbaijan
-
-Aug 2025 – Aug 2025
-
-
-
-1 month
-
-- Contributed to a 4-person labeling team, preparing and validating audio data for an Automatic Speech Recognition (ASR) model
-
-- Assisted in standardizing data preparation workflows to improve consistency and turnaround for model testing
-
-- Collaborated with engineers to align data processing with model requirements, supporting more reliable ASR evaluation
+- Conducted ablation experiments across architectures, developing a practical understanding of when ML approaches are appropriate versus simpler computer vision methods
 
 
 
@@ -58,80 +55,104 @@ Oct 2025 – Mar 2026
 
 6 months
 
-- Taught Python, SQL, PyTorch, TensorFlow, FastAPI, and Hugging Face Transformers, translating complex ML/AI and deep learning concepts into accessible practical knowledge
+- Taught Python, SQL, PyTorch, TensorFlow, FastAPI, and Hugging Face Transformers to 30+ students across 3 cohorts
 
-- Provided ongoing technical mentorship and code review, helping learners build skills in model design, training, and deployment
+- Guided students through end-to-end ML projects including regression, classification, unsupervised learning, NLP pipelines, and computer vision applications
 
-- Developed curriculum materials and coding exercises focused on real-world application
+- Provided code review and technical mentorship, helping students debug model training and improve implementation quality
 
 
 
-## **Azercosmos**, Machine Learning Intern
+## **Kapital Bank**, Data Science and AI Intern
 
 Baku, Azerbaijan
 
-Mar 2026 – May 2026
+Aug 2025 – Aug 2025
 
 
 
-3 months
+1 month
 
-- Built and trained SAR image segmentation models including U-Net, Attention U-Net, and LRAU-Net in PyTorch, covering the full experimental lifecycle from data preprocessing to evaluation
+- Prepared and validated audio datasets for ASR model testing, working within a 4-person labeling team
 
-- Diagnosed model failures through systematic analysis including failure-case visualization, per-region error statistics, and NDVI/NDBI indices
+- Assisted in standardizing data preparation workflows to improve consistency for model evaluation
 
-- Developed an evaluation framework that informed data relabeling and model improvements
+
+
+## **DataMinds Azercell**, Data Analytics and AI Bootcamp
+
+Baku, Azerbaijan
+
+July 2025 – Aug 2025
+
+
+
+2 months
+
+- Built a RAG application using pgvector and LLM frameworks during an intensive bootcamp
+
+- Gained exposure to MLOps concepts including pipeline orchestration, containerization, and stream processing
 
 
 
 # Projects
 ## **AI Food Analyzer**
 
-- Built a production-ready web application using FastAPI that identifies ingredients from meal photos and calculates nutritional information via Vision Language Models (OpenAI, Anthropic, Google Gemini) with automatic failover
+- Built a production-ready web application using FastAPI that identifies ingredients from meal photos and calculates nutritional information via Vision Language Models with automatic failover across OpenAI Anthropic and Google Gemini
 
-- Implemented 3-layer caching (VLM, nutrition, HTTP) achieving 500-600x speed improvement and parallel nutrition lookups with asyncio for up to 13x faster processing
+- Implemented 3-layer caching achieving 500-600x speed improvement and parallel nutrition lookups with asyncio for up to 13x faster processing
 
-- Containerized with Docker and Docker Compose using multi-stage builds reducing image size to ~585MB, with GitHub Actions CI achieving 86% test coverage across 190+ tests
+- Containerized with Docker and Docker Compose using multi-stage builds with GitHub Actions CI achieving 86 percent test coverage across 190 tests
 
-- Integrated PostgreSQL with asyncpg for persistent storage and built both REST API and CLI interfaces with comprehensive OpenAPI documentation
+- Integrated PostgreSQL with asyncpg for persistent storage and built both REST API and CLI interfaces
 
-- Designed system architecture with file validation, SHA-256 hashing for caching, TTL-aware cache backends (JSON/SQLite), and structured logging with Loguru
+
+
+## **Ferocious Minsky ML Library from Scratch**
+
+- Implemented 7 machine learning algorithms from scratch using NumPy including Decision Trees AdaBoost Random Forest with OOB scoring and parallel training PCA K-Means DBSCAN and Gradient Boosting with Newton-Raphson updates
+
+- Achieved 124 tests with 75 percent coverage verified against scikit-learn equivalents
+
+- Built experiment framework for bias-variance decomposition and head-to-head algorithm comparison
+
+
+
+## **RAG Pipeline with Kubernetes HAProxy and Haystack**
+
+- Deployed RAG system on Kind Kubernetes with Qdrant vector DB Ollama TinyLLaMA and HAProxy
+
+- Built Haystack indexing and retrieval pipeline for document collection
+
+- Configured persistent volumes resource limits and readiness and liveness probes
+
+
+
+## **CI/CD Pipeline for FastAPI Service**
+
+- Designed GitHub Actions CI/CD pipeline with Docker build and push and Helm deployment to Kind cluster
+
+- Implemented multi-stage Docker builds with non-root user and HEALTHCHECK
+
+- Deployed FastAPI service to Kubernetes with resource limits and health probes
+
+
+
+## **Seismic First-Break Picking**
+
+- Built a deep learning pipeline for automated first-break picking on 2D seismic shot gathers, framing the task as 3-class segmentation and extracting per-trace picks from the first-break strip
+
+- Trained and benchmarked 9 U-Net variants from 2K to 31M parameters on 690 shots, using a chunk-aware sampler, learning rate scheduling, and early stopping on validation IoU
+
+- Achieved a pick median error of 1 sample and an accuracy of 74.96 percent within 3 samples, outperforming the classical STA LTA baseline which scored 3 samples and 51.9 percent
+
+- Built evaluation and explainability tooling including Grad-CAM heatmaps, wavefront coherence analysis, and worst-N error galleries to diagnose failure modes
+
+- Packaged inference with TorchScript and ONNX export verified for numeric equivalence, plus an MLflow tracked training and evaluation pipeline
 
 
 
 # Education
-## **AI Academy**, Artificial Intelligence
-
-**Certificate Program**
-
-
-Baku, Azerbaijan
-
-
-Aug 2025 – Aug 2026
-
-- Studying machine learning and deep learning with a theory-heavy curriculum, implementing concepts through hands-on coding projects
-
-- Built an AI Food Analyzer project applying ML/DL techniques up to CNNs, with the full implementation detailed on GitHub
-
-
-
-## **Azerbaijan State University of Economics**, Business and Data Analytics
-
-**Master**
-
-
-Baku, Azerbaijan
-
-
-Sept 2025 – present
-
-- Currently pursuing a Master's degree combining data science with business applications
-
-- Coursework includes advanced analytics, data visualization, and quantitative methods
-
-
-
 ## **Baku Higher Oil School**, Chemical Engineering
 
 **Bachelor**
@@ -145,5 +166,37 @@ Sept 2020 – June 2025
 - Built a strong foundation in mathematics, physics, and computational methods through a rigorous engineering curriculum
 
 - Developed analytical problem-solving skills applicable to data science and modeling
+
+
+
+## **AI Academy**, Artificial Intelligence
+
+**Certificate Program**
+
+
+Baku, Azerbaijan
+
+
+Aug 2025 – Aug 2026
+
+- Studying machine learning and deep learning with a theory-heavy curriculum, implementing concepts through hands-on coding projects
+
+- Built production-ready AI applications and ML libraries from scratch, with full implementations on GitHub
+
+
+
+## **Azerbaijan State University of Economics**, Business and Data Analytics
+
+**Master**
+
+
+Baku, Azerbaijan
+
+
+Sept 2025 – present
+
+- Pursuing a Master's degree combining data science with business applications
+
+- Coursework includes advanced analytics, data visualization, and quantitative methods
 
 

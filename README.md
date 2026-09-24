@@ -4,8 +4,8 @@
 <!-- Optional: Add a GIF here -->
 <!-- <img src="./code.gif" align="right" width="400" height="350"/> -->
 
-- I'm currently learning **Machine Learning**
-- I'm looking to collaborate on **AI/ML projects with real-world impact**
+- I like Machine Learning
+- I am looking to collaborate on AI/ML projects
 
 ---
 
